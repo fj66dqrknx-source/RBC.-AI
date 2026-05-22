@@ -1,73 +1,109 @@
-# React + TypeScript + Vite
+# Pixel.io - React JS Digital Agency Template
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Pixel.io is a modern digital agency website template crafted for startups and growing businesses. It blends bold visuals, smooth animations and performance focused layouts to create high-impact brand experiences.
 
-Currently, two official plugins are available:
+**Live Preview:**
+https://pixel-io.prebuiltui.com
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## What’s Included
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This package contains:
 
-## Expanding the ESLint configuration
+- React Version
+- Structured component architecture
+- Production-ready responsive layouts
+- License file
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+React version follows best practices and is optimized for production deployment.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Core Features
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- Dark UI design
+- Gradient
+- Glass effects
+- Marquee animations
+- Agency sections
+- Fast performance
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Tech Stack
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+
+### React Version
+
+- React
+- Tailwind CSS
+- Modular component layout
+
+
+---
+
+## Installation Guide
+
+
+### React
+
+1. Navigate to the `/reactjs` directory.
+2. Install dependencies:
+
+   npm install
+
+3. Run development server:
+
+   npm run dev
+
+
+---
+
+## License
+
+This template is licensed for single-project commercial use.
+
+Your purchase allows you to use Pixel.io in one end product
+intended for one business or client.
+
+You may NOT:
+
+- Resell or redistribute the source files
+- Upload to public repositories
+- Share with other developers or organizations
+- Use to create competing template products
+
+For agency usage, multi-project rights or white-label permissions,
+please contact:
+
+contact@prebuiltui.com
+
+See LICENSE.txt for full legal terms.
+
+---
+## Support
+
+Support includes:
+
+- Installation guidance
+- Technical clarification
+- Minor issue resolution
+
+For assistance, contact:
+
+contact@prebuiltui.com
+
+Please include:
+
+- Template name
+- Version used (Next.js / React / HTML)
+- Node version (if applicable)
+- Clear description of the issue
+
+---
+
+## © Copyright
+
+Pixel.io © 2026 PrebuiltUI  
+All rights reserved.
